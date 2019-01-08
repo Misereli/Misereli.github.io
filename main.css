@@ -1,15 +1,75 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
+  /*block*/
+  margin: 0;
+  padding: 0;
 }
 .header {
-    /*font settings*/
-    font-family: "Arial Black", serif;
-    font-size: 20px;
-    color: white;
+  /*font*/
+  font-family: "Arial Black", serif;
+  font-size: 20px;
+  color: Black;
 
-    /*block settings*/
-    background-color: #030A03;
-    padding: 5px;
+  /*block*/
+  background-color: white;
+  padding: 5px;
+}
+.header-right {
+  /*block*/
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.header img {
+  height: 70px;
+  margin-left: 10px;
+}
+.menu {
+  /*block*/
+  background-color: Black;
+  display: flex;
+
+  /*font*/
+  font-family: "Arial Black", serif;
+  color: white;
+  font-size: 15px;
+}
+.menu-button {
+  /*block*/
+  min-width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+.menu-space {
+  /*block*/
+  width: 100%;
+}
+.block-white {
+  background-color: white;
+}
+.block-black {
+  background-color: black;
+}
+.header-text-black {
+  /*font*/
+  font-family: "Arial Black", serif;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+
+  /*block*/
+  padding: 15px;
+}
+.header-text-white {
+  /*font*/
+  font-family: "Arial Black", serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+  /*block*/
+  padding: 15px;
+}
+.about {
+
 }
