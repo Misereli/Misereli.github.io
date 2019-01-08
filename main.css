@@ -71,5 +71,14 @@ body {
   padding: 15px;
 }
 .about {
+  /*font*/
+  font-family: "Arial", serif;
+  color: black;
+  font-size: 20px;
 
+  /*block*/
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: justify;
 }
