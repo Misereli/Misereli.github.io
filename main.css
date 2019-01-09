@@ -70,7 +70,7 @@ body {
   /*block*/
   padding: 15px;
 }
-.about {
+.content-black {
   /*font*/
   font-family: "Arial", serif;
   color: black;
@@ -81,4 +81,62 @@ body {
   margin: 0 auto;
   padding-bottom: 20px;
   text-align: justify;
+}
+.benefits {
+  /*font*/
+  font-family: "Arial", serif;
+  color: white;
+  font-size: 20px;
+
+  /*block*/
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+.feedback {
+  display: flex;
+}
+.content-white {
+    /*font*/
+    font-family: "Arial", serif;
+    color: white;
+    font-size: 20px;
+
+    /*block*/
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.feedback input {
+  /*block*/
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  border: 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: black;
+
+  /*font*/
+  font-family: "Arial Black", serif;
+  font-size: 14px;
+}
+.feedback-space {
+  width: 100%;
+}
+.services {
+  /*font*/
+  font-family: "Arial", serif;
+  color: black;
+  font-size: 20px;
+
+  /*block*/
+  display: flex;
+  padding-bottom: 20px;
+}
+.services img {
+  height: 200;
+  border-radius: 100%;
 }
