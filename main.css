@@ -141,3 +141,6 @@ body {
   height: 200;
   border-radius: 100%;
 }
+.services div {
+  margin: 20px;
+}
